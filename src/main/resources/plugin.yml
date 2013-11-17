@@ -1,0 +1,18 @@
+##############################################################################
+#                        ConRiot Copyright (c) 2013                          #
+#           This plugin has been specially developed for ConRiot.            #
+#    It may not be distributed or used by anyone other than the copyright    #
+#    owner. If you got this file from the internet, please send an email     #
+#            with the direct URL to: endain.gaming@gmail.com                 #
+##############################################################################
+
+name: ${project.name}
+version: ${project.version}
+website: http://ConRiot.net
+description: Mines module developed for ConRiot
+author: [Endain]
+main: net.conriot.sona.mines.Mines
+depend: [CRM-MySQL]
+commands:
+  mine:
+    description: Mine management commands
